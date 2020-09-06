@@ -5,7 +5,6 @@ UI.searchOnEnter = function() {
     document.querySelector('.js-search').addEventListener('keypress', function(e) {
         if(e.key === 'Enter') {
             var userInput = e.target.value;
-          //console.log(userInput);
             SoundCloudAPI.getTracks(userInput);
         }
     });
@@ -14,7 +13,6 @@ UI.searchOnEnter = function() {
 UI.searchOnClick = function() {
     document.querySelector(".js-submit").addEventListener('click',function() {
         var inputValue = document.querySelector('.js-search').value;
-        //console.log(userInput);
         SoundCloudAPI.getTracks(userInput);
     });
 }
