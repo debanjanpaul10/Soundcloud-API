@@ -1,8 +1,25 @@
 /* CURRENTLY IN: styles/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 html, body {
 	height: 100%;
 	width: 100%;
 	min-height: 100%;
+	background-color: whitesmoke;
+}
+
+
+.main h1 {
+	text-align: center;
+	line-height: 0.125rem;
+	font-size: 3.75rem;
+	font-weight: 56.25rem;
+	padding: 0.625rem;
+	margin-bottom: 1.25rem;
+	color: black;
+  	-webkit-text-fill-color: white; 
+  	-webkit-text-stroke-width: 0.006rem;
+	  -webkit-text-stroke-color: black;
+	font-family: 'Rakkas', cursive;
 }
 
 #soundcloud-player .col {
@@ -16,14 +33,14 @@ html, body {
 #soundcloud-player .col-left {
 	width: 20%;
 	height: 100%;
-	background-color: #292929;
+	background-color: #303030;
 	overflow: auto;
 
 	position: fixed;
 	left: 0;
 	top: 0;
 
-	min-width: 200px;
+	min-width: 12.5rem;
 	z-index: 1;
 }
 
@@ -42,8 +59,8 @@ html, body {
 
 #soundcloud-player .main {
 	box-sizing: border-box;
-	padding: 30px;
-	margin: 30px;
+	padding: 1.875rem;
+	margin: 1.875rem;
 }
 
 #soundcloud-player .input {
@@ -62,7 +79,7 @@ html, body {
 
 #soundcloud-player .search-results {
 	justify-content: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .reset {
